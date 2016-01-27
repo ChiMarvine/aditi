@@ -1,0 +1,97 @@
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.landingOne {
+	display: block;
+	height: 688px;
+	width: auto;
+	background-image: url(/assets/landingbg.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.logo {
+	height: 128px;
+	width: 166px;
+}
+
+.textOne {
+	font-size: 54px;
+	font-weight: normal;
+	color: white;
+}
+
+.textTwo {
+	font-size: 20;
+	color: white;
+}
+
+.landingTwo {
+	height: 454px;
+}
+
+.macbook {
+	height: 305px;
+	width: 511px;
+}
+
+.macbook-img {
+	height: 241px;
+	width: 384px;
+}
+
+.iphone {
+	height: 250px;
+	width: 130px;
+}
+
+.iphone-img {
+	height: 184px;
+	width: 102px;
+}
+
+.landingThree {
+	background-color: #f8f8f8;
+	height: 532px;
+}
+
+.lady {
+	height: 456px;
+	width: 262px;
+}
+
+.graph {
+	height: 123px;
+	width: 187px;
+}
+
+.connect {
+	height: 457px;
+	width: 298px;
+}
+
+.landingFour {
+	height: 469px;
+}
+
+.money {
+	height: 354px;
+	width: 315px;
+}
+
+.landingFive {
+	background-color: #f8f8f8;
+	height: 341px;
+}
+
+.green {
+	background-color: #58b737;
+	color: white;
+}
+
+footer {
+	background-color: #333;
+	color: #555;
+	height: 112px;
+}
