@@ -8,7 +8,7 @@ angular
       $stateProvider
          .state('landing', {
             url: '/',
-            templateUrl: 'app/landing/landing.html',
+            templateUrl: 'app/landing/main.html',
             controller: 'landingCtrl'
          });
    }]);

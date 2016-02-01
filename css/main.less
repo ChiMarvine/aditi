@@ -1,0 +1,53 @@
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.home {
+	section {
+		padding: 25px 0;
+	}
+
+	// Flex Classes
+	.flex {
+		display: flex;
+		flex-direction: rows;
+	}
+
+	.flex-center {
+		justify-content: center;
+	}	
+	
+	.flex-around {
+		justify-content: space-around;
+	}
+	
+	.push-left {
+		margin-right: 450px; 
+	}
+
+	.order-first {
+		order: -1;
+	}
+}
+
+	// Columns
+.col-1 {
+	max-width: 525px;
+	margin: 0px 10px;
+}
+
+.col-2 {
+	max-width: 2000px;
+	margin: 0 10px;
+}
+
+@media (max-width: 640px) {
+	.home .flex {
+		display: block;
+	}
+
+	.col-1 {
+		max-width: 100%;
+	}
+
+}
