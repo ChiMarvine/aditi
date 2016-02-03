@@ -1,7 +1,7 @@
 'use strict';
 
 angular
-   .module('myApp', ['ui.router', 'ui.bootstrap'])
+   .module('myApp', ['ui.router', 'ui.bootstrap', 'ngAnimate'])
    .config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider, $stateProvider){
       $urlRouterProvider.otherwise('/');
 
@@ -9,6 +9,12 @@ angular
          .state('landing', {
             url: '/',
             templateUrl: 'app/landing/main.html',
-            controller: 'landingCtrl'
+            controller: 'collapseCtrl'
          });
-   }]);
+   }])
+
+   .controller('collapseCtrl', function ($scope) {
+     $scope.isCollapsed = false;
+
+   });
+

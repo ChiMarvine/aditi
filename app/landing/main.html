@@ -1,9 +1,98 @@
+<section class="login" ng-controller="collapseCtrl">
+	<nav class="navbar navbar-default">
+
+   	<div class="navbar-header">
+	      <a class="navbar-brand" href="#">Aditi Enterprise Group</a></div>
+	      <div class="collapse navbar-collapse">
+	        <ul class="nav navbar-nav navbar-right">
+	          <li class="dropdown">
+	            <a href="#" ng-click="isCollapsed = !isCollapsed" role="button" aria-expanded="false"><i class="glyphicon glyphicon-user"></i> Login</a>   
+	          </li>
+	        </ul>
+	      </div>
+		</div>
+	</nav>
+
+   <div class="forms" uib-collapse="!isCollapsed">
+
+	   <div class="col-md-4">
+
+				<h3>Client Login</h3>
+			  	<label for="exampleInputEmail1"><i class="glyphicon glyphicon-envelope"></i> Email address</label> 
+			  	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" />
+
+
+			  	<label for="exampleInputPassword1"><i class="glyphicon glyphicon-lock"></i> Password</label> 
+			  	<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
+
+			  	<button type="submit" class="btn btn-success btn-block"> Login</button>
+
+	 </div>
+
+	    <div class="col-md-4">
+
+	 			<h3>Broker Login</h3>
+	 		  	<label><i class="glyphicon glyphicon-envelope"></i> Email address</label> 
+	 		  	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" />
+
+
+	 		  	<label for="exampleInputPassword1"><i class="glyphicon glyphicon-lock"></i> Password</label> 
+	 		  	<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
+
+	 		  	<button type="submit" class="btn btn-success btn-block"> Login</button>
+
+	  </div>
+
+	     <div class="col-md-4">
+
+	  			<h3>Affiliate Login</h3>
+	  		  	<label><i class="glyphicon glyphicon-envelope"></i> Email address</label> 
+	  		  	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" />
+
+
+	  		  	<label><i class="glyphicon glyphicon-lock"></i> Password</label> 
+	  		  	<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
+
+	  		  	<button type="submit" class="btn btn-success btn-block"> Login</button>
+
+	   </div>
+
+
+
+<!-- 	   <div class="col-md-3">
+	  	  	<div class="form-group">
+		  	  	<h3>Broker Login</h3>
+		  	  	<label for="exampleInputEmail1"><i class="glyphicon glyphicon-envelope"></i> Email address</label> 
+		  	  	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" /></div>
+		  	  	<div class="form-group">
+		  	  	<label for="exampleInputPassword1"><i class="glyphicon glyphicon-lock"></i> Password</label> 
+		  	  	<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" /></div>
+		  	  	<button type="submit" class="btn btn-success btn-block"><i class="glyphicon glyphicon-ok"></i> Submit</button>
+		  	</div>  	
+	   </div>
+
+	    <div class="col-md-3">
+    	  	<div class="form-group">
+	    	  	<h3>Affiliate Login</h3>
+	    	  	<label for="exampleInputEmail1"><i class="glyphicon glyphicon-envelope"></i> Email address</label> 
+	    	  	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" /></div>
+	    	  	<div class="form-group">
+	    	  	<label for="exampleInputPassword1"><i class="glyphicon glyphicon-lock"></i> Password</label> 
+	    	  	<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" /></div>
+	    	  	<button type="submit" class="btn btn-success btn-block"><i class="glyphicon glyphicon-ok"></i> Submit</button>
+	    	</div>  	
+	    </div> -->
+
+
+
+</section>
+
 <section class="one">
-	
+
 	<div class="col-md-2"></div>
 	<div class="col-md-4">
 		<img src="/assets/logo.png" class="logo">
-		<h1>Bad credit and need money?</h1>
+		<h1>Need a boost in those credit scores?</h1>
 		<p>Let AEG Credit Services' credit specialists walk you <br> through the process and get you the money you need.</p>
 		<form class="form-inline">
 		  <div class="form-group">
@@ -22,7 +111,7 @@
 	<div class="col-md-4">
 		<h1>Credit scores are fluid and ever changing. Let's make the change a good one.</h1>
 		<p>Maintaining a good credit score takes diligence, but it is well worth it. A higher credit score can save you thousands of dollars over the lifetime of a loan. Let our AEG Credit experts help you raise your scores and keep them up!</p>
-		<a href="#" style="color: #409c20; font-weight: bold">See more actual client results <img src="/assets/arrow.png" class="arrow"></a>
+		<a href="#" >See more actual client results <img src="/assets/arrow.png" class="arrow"></a>
 	</div>
 	<div class="col-md-4">
 		<img src="/assets/macbook-iphone.png" class="device">
@@ -49,9 +138,9 @@
 	
 	<div class="col-md-2"></div>
 	<div class="col-md-4">
-		<h1>Ready to get those loans? Let's get started!</h1>
+		<h1>Ready to get those credit cards? Let's get started!</h1>
 
-		<p>From loans to credit cards, AEG Credit Services' loan and credit approval specialists can get you the money you need.</p>
+		<p>From credit cards to loans, AEG Credit Services' credit and loan approval specialists can help get you the money you need.</p>
 
 		<p class="p2">"<i class="quote">I just want to thank the AEG for fixing my credit and able to get approved, after six years of getting declined."</i> - Roger C.</p>
 	</div>
@@ -65,7 +154,7 @@
 	
 	<div class="col-md-2"></div>
 	<div class="col-md-8">
-		<h1>Your loans are waiting. Start today!</h1>
+		<h1>Your new credit is waiting. Start with a FREE consultation today!</h1>
 
 		<form class="form-inline">
 		  <div class="form-group">
