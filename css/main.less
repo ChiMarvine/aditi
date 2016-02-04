@@ -4,7 +4,7 @@ html {
 
 .home {
 	section {
-		padding: 25px 0;
+
 	}
 
 	// Flex Classes
@@ -19,10 +19,6 @@ html {
 	
 	.flex-around {
 		justify-content: space-around;
-	}
-	
-	.push-left {
-		margin-right: 450px; 
 	}
 
 	.order-first {
@@ -41,7 +37,15 @@ html {
 	margin: 0 10px;
 }
 
-@media (max-width: 640px) {
+.col-50 {
+	width: 50%;
+}
+
+.push-left {
+	margin-right: 450px; 
+}
+
+@media (max-width: 960px) {
 	.home .flex {
 		display: block;
 	}
@@ -50,4 +54,7 @@ html {
 		max-width: 100%;
 	}
 
+	.push-left {
+		margin-right: 10px; 
+	}
 }

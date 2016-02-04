@@ -1,1 +1,1 @@
-.six{background-color:#202020;color:#858585;height:112px;font-family:'Open Sans',sans-serif;font-weight:400;font-size:16px}.six p{margin-top:20px}
+.six{background-color:#202020;color:#858585;height:112px;font-family:'Open Sans',sans-serif;display:-webkit-flex;display:flex;flex-direction:row;-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center}.six p{font-size:16px;font-weight:400;text-align:center;align-items:center}

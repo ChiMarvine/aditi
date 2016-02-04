@@ -1,11 +1,10 @@
 .two {
-	height: 454px;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
+	height: 454px;
 
 	.computer {
-		height: 335px;
-		width: 525px;
+		height: 373px;
+		width: 535px;
 		position: absolute;
 		margin-top: 45px;
 		right: 300px;
@@ -14,23 +13,105 @@
 	h1 {
 		font-size: 32px;
 		line-height: 1.4;
+		font-weight: 300;
 		padding: 15px 0;
+		width: 475px;
 	}
 
 	p {
 		font-size: 16px;
 		line-height: 1.6;
-		padding: 15px 0;
 		max-width: 410px;
+		padding: 15px 0;
 	}
 
 	a {
 		font-size: 20px;
+		font-weight: 300;
+		color: #409c20;
 		padding: 15px 0;
+	}
+
+	.arrow {
+		margin-left: 10px;
+		margin-bottom: 3px;
 	}
 
 	.col-1 {
 		max-width: 500px;
+	}
+}
+
+@media (max-width: 1575px) {
+	.two {
+		.computer {
+			right: 170px;
+			margin-top: 45px;
+			height: 373px;
+			width: 535px;
+		}
+	}
+}
+
+@media (max-width: 1335px) {
+	.two {
+		.computer {
+			right: 100px;
+			margin-top: 45px;
+			height: 373px;
+			width: 535px;
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+	.two {
+		.computer {
+			right: 25px;
+			margin-top: 45px;
+			height: 373px;
+			width: 535px;
+		}
+	}
+}
+
+@media (max-width: 1020px) {
+	.two {
+		.computer {
+			right: 25px;
+			margin-top: 75px;
+			height: 303px;
+			width: 465px;
+		}
+	}
+}
+
+@media (max-width: 960px) {
+	.two {
+
+		.computer {
+			display: block;
+			position: relative;
+			margin: 15px auto 15px auto;
+			height: 278px;
+			width: 440px;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.two {
+
+		h1, p, a {
+			width: 300px;
+		}
+
+		.computer {
+			display: block;
+			margin: 15px auto 15px auto;
+			height: 198px;
+			width: 300px;
+		}
 	}
 }
 
