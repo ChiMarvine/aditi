@@ -84,28 +84,39 @@
 		color: white;
 	}
 
-@media (max-width: 800px) {
+
+
+@media (max-width: 960px) {
 	.one {
-		h1, p, .email-form {
-			margin-left: auto;
-			margin-right: auto;
+
+		h1, p {
+			width: 450px;
 		}
 
 		h1 {
 			font-size: 50px;
 			line-height: 1.2;
 		}
-	}	
-}
 
-@media (max-width: 930px) {
-	.one {
 		.email-form {
 			margin-top: 35px;
 
 			button {
 				margin-top: 3px;
 			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.one {
+		.email-form button{
+			margin-top: 10px;
+			width: 280px !important;
+		}
+
+		h1, p {
+			width: 315px;
 		}
 	}
 }
