@@ -1,4 +1,45 @@
-<section class="one">
+<section class="one" ng-controller="dropdownCtrl">
+
+<div class="btn-group" uib-dropdown is-open="status.isopen">
+   <button id="single-button" type="button" aria-expanded="false" class="btn" uib-dropdown-toggle ng-disabled="disabled">
+     Login <span class="caret"></span> 
+   </button>
+   <div uib-dropdown-menu role="menu" aria-labelledby="single-button" class="flex-around dropdown" ng-click="toggleDropdown($event)">
+      <div class="col-md-4">
+			<h3>Client Login</h3>
+			<label><i class="glyphicon glyphicon-user"></i> Username</label>
+			<input type="email" class="form-control" id="email-input" placeholder="Username" />
+
+			<label><i class="glyphicon glyphicon-lock"></i> Password</label>
+			<input type="password" class="form-control" id="pw-input" placeholder="Password" />
+
+			<button type="submit" class="btn btn-success btn-block">Login</button>
+      </div>
+
+      <div class="col-md-4">
+			<h3>Broker Login</h3>
+			<label><i class="glyphicon glyphicon-user"></i> Username</label>
+			<input type="email" class="form-control" id="email-input" placeholder="Username" />
+
+			<label><i class="glyphicon glyphicon-lock"></i> Password</label>
+			<input type="password" class="form-control" id="pw-input" placeholder="Password" />
+
+			<button type="submit" class="btn btn-success btn-block">Login</button>
+      </div>
+
+      <div class="col-md-4">
+			<h3>Affiliate Login</h3>
+			<label><i class="glyphicon glyphicon-user"></i> Username</label>
+			<input type="email" class="form-control" id="email-input" placeholder="Username" />
+
+			<label><i class="glyphicon glyphicon-lock"></i> Password</label>
+			<input type="password" class="form-control" id="pw-input" placeholder="Password" />
+
+			<button type="submit" class="btn btn-success btn-block">Login</button>
+       </div>
+   </div>
+</div>
+
 	<div class="flex flex-center">		
 
 		<div class="col-1 push-left">
