@@ -24,10 +24,10 @@ angular
        isopen: false
      };
 
-     $scope.toggleDropdown = function($event) {
-       $event.preventDefault();
-       $event.stopPropagation();
-     };
+     // $scope.toggleDropdown = function($event) {
+     //   $event.preventDefault();
+     //   $event.stopPropagation();
+     // };
 
      $scope.client = {};
      $scope.login = function(path) {
