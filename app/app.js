@@ -3,11 +3,11 @@
 angular
    .module('myApp', ['ui.router', 'ui.bootstrap'])
    .config(['$urlRouterProvider', '$stateProvider', '$httpProvider', function($urlRouterProvider, $stateProvider, $httpProvider){
-    $httpProvider.defaults.useXDomain = true;
-    $httpProvider.defaults.withCredentials = true;
-    delete $httpProvider.defaults.headers.common["X-Requested-With"];
-    $httpProvider.defaults.headers.common["Accept"] = 'application/x-www-form-urlencoded';
-    $httpProvider.defaults.headers.common["Content-Type"] = 'application/x-www-form-urlencoded';
+    // $httpProvider.defaults.useXDomain = true;
+    // $httpProvider.defaults.withCredentials = true;
+    // delete $httpProvider.defaults.headers.common["X-Requested-With"];
+    // $httpProvider.defaults.headers.common["Accept"] = 'application/x-www-form-urlencoded';
+    // $httpProvider.defaults.headers.common["Content-Type"] = 'application/x-www-form-urlencoded';
 
       $urlRouterProvider.otherwise('/');
 
