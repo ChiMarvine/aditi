@@ -47,10 +47,13 @@
 			<img src="assets/logo.png" class="logo">
 			<h1>Need a boost in those credit scores?</h1>
 			<p>Let AEG Credit Services' credit specialists walk you through the process and get you the money you need.</p>
-			<form class="form-inline email-form">
+			<form class="form-inline email-form" action="//formspree.io/info@aditienterprisegroup.com" method="POST">
 				<div class="form-group">
-			   	<input type="email" class="form-control inputOne" placeholder="Email">
+			   	<input type="email" name="_replyto" class="form-control inputOne" placeholder="Email" ng-model="email" required>
 			  		<button type="submit" class="btn btn-warning btn-lg">Get Started Today</button>
+			  		<input type="hidden" name="_subject" value="Inquiry by {{email}}" />
+			  		<input type="hidden" name="_next" value="http://chimarvine.github.io/aditi/#/" />
+			  		<input type="text" name="_gotcha" style="display:none" />
 			   </div>
 			</form>
 
@@ -106,12 +109,16 @@
 		<div class="col-2">
 			<h1>Your new credit is waiting. <br> Start with a FREE consultation today!</h1>
 
-			<form class="form-inline">
+			<form class="form-inline" action="//formspree.io/info@aditienterprisegroup.com" method="POST">
 			  <div class="form-group">
-			    <input type="email" class="form-control" placeholder="Email">
+			    <input type="email" name="_replyto" class="form-control" placeholder="Email" ng-model="email" required>
 			  </div>
 			  <button type="submit" class="btn green">Sign Up</button>
+			  <input type="hidden" name="_subject" value="Inquiry by {{email}}" />
+			  <input type="hidden" name="_next" value="http://chimarvine.github.io/aditi/#/" />
+			  <input type="text" name="_gotcha" style="display:none" />
 			</form>
+
 		</div>	
 	</div>
 </section>
