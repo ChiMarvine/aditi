@@ -32,7 +32,7 @@ angular
      $scope.client = {};
      $scope.login = function(path) {
 
-      window.location.replace('http://www.aditienterprisegroup.net/' + path + '/secure/login');
+      window.location.href = 'http://www.aditienterprisegroup.net/' + path + '/secure/login'
 
         //var data = $scope[path];
 
